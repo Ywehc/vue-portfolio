@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-      <Landing @click.native="toggleIntro()" v-if="introClicked === false"></Landing>  
+      <Landing 
+        @click.native="toggleIntro()" 
+        v-if="introClicked === false"
+        ></Landing>  
       <Home v-else></Home>   
   </div>
 </template>
@@ -29,8 +32,4 @@ export default {
 </script>
 
 <style>
-.testClass {
-  border: 2px solid green;
-  height: 10em;
-}
 </style>
