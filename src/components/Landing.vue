@@ -2,12 +2,10 @@
   <div>
     <div class="header-container">
         <header>
-            <a href="web.html">
                 <h1>chris kieran</h1>
-            </a>
         </header>
     </div> 
-    <h2><a href="web.html">modern web development</a></h2> 
+    <h2>modern web development</h2> 
   </div>
 </template>
 

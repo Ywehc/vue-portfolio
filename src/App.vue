@@ -1,12 +1,7 @@
 <template>
   <div id="app">
-      <Landing 
-        v-if="introClicked == false"  
-        @click="toggleIntro()"
-      ></Landing>
-      <Home v-else></Home>
-
-    
+      <Landing @click.native="toggleIntro()" v-if="introClicked === false"></Landing>  
+      <Home v-else></Home>   
   </div>
 </template>
 
@@ -27,7 +22,7 @@ export default {
   },
   methods: {
     toggleIntro: function () {
-      this.introClicked == !this.introClicked;
+      this.introClicked = true; 
     }
   }
 }
@@ -36,5 +31,6 @@ export default {
 <style>
 .testClass {
   border: 2px solid green;
+  height: 10em;
 }
 </style>
