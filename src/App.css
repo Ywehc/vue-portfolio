@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
 
-:root {
-    --main-bg-color: #2D283E;
-    --main-text-color: #D1D7E0;
-    --main-highlight-color: #802BB1;
-}
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
