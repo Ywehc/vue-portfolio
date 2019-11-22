@@ -1,6 +1,33 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
 $dark: #2D283E;
 $main-text-color: #D1D7E0;
 $main-highlight-color: #802BB1;
 
 $grape: #564F6F;
 $grey: #4C495D;
+
+$palette1q1: #ffffff;
+$palette1q2: #0f52ba;
+$palette1q3: #0bda51;
+$palette1q4: #00a86b;
+$palette1q5: #53c97c;
+
+$palette2q1: #802BB1;
+$palette2q2: #2D283E;
+$palette2q3: #564F6F;
+$palette2q4: #D1D7E0;
+$palette2q5: #4C495D;
+
+$palette3q1: #3a7ca5;
+$palette3q2: #d9dcd6;
+$palette3q3: #16425b;
+$palette3q4: #81c3d7;
+$palette3q5: #2f6690;
+
+$palette4q1: #61892F;
+$palette4q2: #86C232;
+$palette4q3: #222629;
+$palette4q4: #474B4F;
+$palette4q5: #6B6E70;

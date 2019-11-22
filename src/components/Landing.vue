@@ -23,6 +23,7 @@
     font-size: 52px;
     font-weight: lighter;
     color: $dark;
+    padding-top: 30px;
   }
   h1:hover{
       color: $main-highlight-color;

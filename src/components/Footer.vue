@@ -1,12 +1,16 @@
 <template>
-  <div>
-    <h1>Footer here</h1>
+  <div class="footer">
+    <p>&#x24B8; 2019 Chris Kieran</p>
   </div>
 </template>
 
 <script>
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
+.footer {
+  background-color: $dark;
+  color: $main-text-color;
+  text-align: center;
+}
 </style>

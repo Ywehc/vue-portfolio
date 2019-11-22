@@ -1,12 +1,23 @@
 <template>
-  <div>
-    <h1>Header here</h1>
+  <div class="header">
+    <h2>chris kieran</h2>
   </div>
 </template>
 
 <script>
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
+.header {
+  background-color: $dark;
+}
+.header h2 {
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-size: 52px;
+    font-weight: lighter;
+    color: $main-text-color;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+  }
 </style>

@@ -1,13 +1,15 @@
 <template>
   <div>
-    <Header>Test</Header>
+    <Header></Header>
+    <Palette></Palette>
     <Main></Main>
-    <Footer>Test</Footer>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import Header from './Header.vue'
+import Palette from './Palette.vue'
 import Main from './Main.vue'
 import Footer from './Footer.vue'
 
@@ -15,7 +17,8 @@ export default {
   components: {
     Header,
     Footer,
-    Main
+    Main,
+    Palette
   }
 }
 </script>

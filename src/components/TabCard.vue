@@ -50,3 +50,25 @@ export default {
     }
 };
 </script>
+
+<style lang="scss" scoped>
+.card-body {
+    background-color: $dark;
+    color: $main-text-color;
+}
+.card-header {
+    padding: 0;
+    color: $main-highlight-color;
+}
+.card-header ul {
+    padding: 0;
+}
+.tab-heads {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.tab-heads li {
+    margin: 15px auto;
+}
+</style>
