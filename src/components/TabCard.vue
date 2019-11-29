@@ -1,5 +1,5 @@
 <template>
-    <div class="card">
+    <div>
         <header class="card-header">
             <ul class="tab-heads">
                 <li
@@ -57,8 +57,9 @@ export default {
     color: $main-text-color;
 }
 .card-header {
-    padding: 0;
+    background: $palette2q4;
     color: $main-highlight-color;
+    border: none;
 }
 .card-header ul {
     padding: 0;

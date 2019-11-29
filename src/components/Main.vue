@@ -1,6 +1,6 @@
 <template>
   <div>
-      <TabCard :tabs="tabs" :initialTab="initialTab">
+      <TabCard :tabs="tabs" :initialTab="initialTab" class="tab-container">
           <template slot = "tab-head-about">
               about
           </template>
@@ -87,8 +87,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.card-header {
-    background-color: $main-text-color!important;
+
+.tab-container {
+    background-color: $palette2q4;
+    color: blue;
 }
 .tab-img {
     width: 270px;
@@ -104,6 +106,6 @@ export default {
 }
 .fas, .fab {
     margin: 5px;
-    color: $main-highlight-color;
+    color: $palette2q1;
 }
 </style>
