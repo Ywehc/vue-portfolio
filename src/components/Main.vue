@@ -1,18 +1,6 @@
 <template>
   <div>
       <TabCard :tabs="tabs" :initialTab="initialTab" class="tab-container">
-          <template slot = "tab-head-about">
-              about
-          </template>
-
-          <template slot ="tab-panel-about">
-              <h2 class="title">About Me</h2>
-              <p class="description"> {{ copy.about.intro }} </p>
-              <img class="tab-img" src="https://lh3.googleusercontent.com/3Ky0Nz9dh3lpJ7BLo-EhaczltFNocSdn5c-y8Y6TaaT0tr8co6MabGmIgV51bo1nj6M36giSRL-yvJYREIuvszJAKJJuxtAvnPmrkeBkNfyPd9r__xNBTE6UipAPVjD1jdhtrSQdJwbmTp4KRR-zISI78TtF22Zs8tYtkX_KcRkCoCywbZZfpg8Ph7dyP6ZVeFmpD4yS2TKXSoX0mIPEnwvGwk0soU6Gy3JidojQu77jCfrjdUycEJh2vXAtqmGUN1EVaeFeZAlzHuynqybo8R0WuzlY_52EI6ztDtLahZ2TNPodehaP6WRct3aDzK3gpV0OtToBzbRj73kU93LKo5jwj6-n3zuh2jiQc-H8OEPRt37YYBg2-vemXfSBj7O5uOkRKQIqMtt4I1zc9don8K-UhnBaRzPb_X1h7F8cK9Nge2qoHzHXmNaGTbifPlWsLk8yzhZ1RMLOXvsk8vYwxMLN2Fv5IVwH-FWoalAtpPtLXFU5529633PNCRgcSlqvkxWU8MiPLbEUVNVz_16PVn32oA1kjqcJt2b_DPRg_tjt5ZtZ05DtzzdSMs0tsuc296MS4NJdcYL-n5IjIzgCZ5nlcfQlZDQtFbAd17PYcO40jADbjbCnJ-E8hdqWnJUW36s7sqU9wnqk7AYOc-oY3-_FRN6-SQekisYX4UXHNekDXGZmD-bVwajhuETDD2M684BzYjgTfbE92_JJ4yVCQbG3ubkYWgJO_SsC1Gj2FmP-xNqs=w834-h625-no">
-              <p>{{ copy.about.interests }}</p>
-              <p>{{ copy.about.techInterests }}</p>
-          </template>
-
           <template slot="tab-head-skills">
               skills
           </template>
@@ -40,6 +28,19 @@
                 </ul>
               </div>
           </template>
+          <template slot = "tab-head-about">
+              about
+          </template>
+
+          <template slot ="tab-panel-about">
+              <h2 class="title">About Me</h2>
+              <p class="description"> {{ copy.about.intro }} </p>
+              <img class="tab-img" src="https://lh3.googleusercontent.com/3Ky0Nz9dh3lpJ7BLo-EhaczltFNocSdn5c-y8Y6TaaT0tr8co6MabGmIgV51bo1nj6M36giSRL-yvJYREIuvszJAKJJuxtAvnPmrkeBkNfyPd9r__xNBTE6UipAPVjD1jdhtrSQdJwbmTp4KRR-zISI78TtF22Zs8tYtkX_KcRkCoCywbZZfpg8Ph7dyP6ZVeFmpD4yS2TKXSoX0mIPEnwvGwk0soU6Gy3JidojQu77jCfrjdUycEJh2vXAtqmGUN1EVaeFeZAlzHuynqybo8R0WuzlY_52EI6ztDtLahZ2TNPodehaP6WRct3aDzK3gpV0OtToBzbRj73kU93LKo5jwj6-n3zuh2jiQc-H8OEPRt37YYBg2-vemXfSBj7O5uOkRKQIqMtt4I1zc9don8K-UhnBaRzPb_X1h7F8cK9Nge2qoHzHXmNaGTbifPlWsLk8yzhZ1RMLOXvsk8vYwxMLN2Fv5IVwH-FWoalAtpPtLXFU5529633PNCRgcSlqvkxWU8MiPLbEUVNVz_16PVn32oA1kjqcJt2b_DPRg_tjt5ZtZ05DtzzdSMs0tsuc296MS4NJdcYL-n5IjIzgCZ5nlcfQlZDQtFbAd17PYcO40jADbjbCnJ-E8hdqWnJUW36s7sqU9wnqk7AYOc-oY3-_FRN6-SQekisYX4UXHNekDXGZmD-bVwajhuETDD2M684BzYjgTfbE92_JJ4yVCQbG3ubkYWgJO_SsC1Gj2FmP-xNqs=w834-h625-no">
+              <p>{{ copy.about.interests }}</p>
+              <p>{{ copy.about.techInterests }}</p>
+          </template>
+
+          
 
           <template slot="tab-head-projects">
               projects
