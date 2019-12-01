@@ -16,6 +16,7 @@
                 </li>
             </ul>
         </header>
+        <Palette></Palette>
         <main class="card-body">
             <div class="tab-panel">
                 <slot :name="tabPanelSlotName"></slot>
@@ -25,6 +26,8 @@
 </template>
 
 <script>
+import Palette from './Palette.vue'
+
 export default {
     props: {
         initialTab: String,
@@ -47,6 +50,9 @@ export default {
         switchTab(tabName) {
             this.activeTab = tabName;
         }
+    },
+    components: {
+        Palette
     }
 };
 </script>
@@ -68,8 +74,9 @@ export default {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    margin-bottom: 0;
 }
 .tab-heads li {
-    margin: 15px auto;
+    margin: 5px auto;
 }
 </style>

@@ -1,7 +1,6 @@
 <template>
   <div>
     <Header></Header>
-    <Palette></Palette>
     <Main></Main>
     <Footer></Footer>
   </div>
@@ -9,7 +8,6 @@
 
 <script>
 import Header from './Header.vue'
-import Palette from './Palette.vue'
 import Main from './Main.vue'
 import Footer from './Footer.vue'
 
@@ -17,8 +15,7 @@ export default {
   components: {
     Header,
     Footer,
-    Main,
-    Palette
+    Main
   }
 }
 </script>

@@ -1,0 +1,93 @@
+.palette-grid {
+    padding:5px;
+    background-color: $palette2q4;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+}
+
+.pill {
+	height: 30px;
+	width: 70px;
+	border: 2px solid black;
+	margin: 5px;
+	border-radius: 30px;
+	display: flex;
+}
+
+.quadrant-1, .quadrant-2, .quadrant-3, .quadrant-4 {
+	width: 25%;
+	height: 100%;
+	border: 1px solid black;
+}
+
+.quadrant-1 {
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+
+.quadrant-4 {
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+#palette-1 {
+    .quadrant-1 {
+        background-color: $palette1q1;
+    }
+    .quadrant-2 {
+        background-color: $palette1q2;
+    }
+    .quadrant-3 {
+        background-color: $palette1q3;
+    }
+    .quadrant-4 {
+        background-color: $palette1q4;
+    }
+
+}
+#palette-2 {
+    .quadrant-1 {
+        background-color: $palette2q1;
+    }
+    .quadrant-2 {
+        background-color: $palette2q2;
+    }
+    .quadrant-3 {
+        background-color: $palette2q3;
+    }
+    .quadrant-4 {
+        background-color: $palette2q5;
+    }
+
+}
+#palette-3 {
+    .quadrant-1 {
+        background-color: $palette3q1;
+    }
+    .quadrant-2 {
+        background-color: $palette3q2;
+    }
+    .quadrant-3 {
+        background-color: $palette3q3;
+    }
+    .quadrant-4 {
+        background-color: $palette3q5;
+    }
+
+}
+#palette-4 {
+    .quadrant-1 {
+        background-color: $palette4q1;
+    }
+    .quadrant-2 {
+        background-color: $palette4q2;
+    }
+    .quadrant-3 {
+        background-color: $palette4q3;
+    }
+    .quadrant-4 {
+        background-color: $palette4q5;
+    }
+
+}
