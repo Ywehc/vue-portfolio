@@ -1,112 +1,95 @@
 <template>
-  <div>
-      <TabCard :tabs="tabs" :initialTab="initialTab" class="tab-container">
-          <template slot="tab-head-skills">
-              skills
-          </template>
-
-          <template slot="tab-panel-skills">
-              <h2 class="title">My Skills</h2>
-              <p class="description"> {{ copy.skills.intro }} </p>
-              <div class="skill-grid">
-                <ul>
-                    <li><i class="fab fa-js"></i>JavaScript</li>
-                    <li><i class="fab fa-css3-alt"></i>CSS/SCSS</li>
-                    <li><i class="fab fa-html5"></i>HTML</li>
-                    <li><i class="fab fa-vuejs"></i>Vue.js</li>
-                    <li><i class="fab fa-react"></i>React.js</li>
-                    <li><i class="fas fa-code"></i>Bootstrap</li>
-                    <li><i class="fab fa-git"></i>Version Control</li>
-                    <li><i class="fas fa-server"></i>Hosting</li>
-                    <li><i class="fab fa-aws"></i>AWS</li>
-                    <li><i class="fas fa-search"></i>SEO</li>
-                    <li><i class="fas fa-mobile-alt"></i>Responsive Design</li>
-                    <li><i class="fas fa-universal-access"></i>Accessibile Interfaces</li>
-                    <li><i class="fab fa-wordpress"></i>WordPress, Shopify, HubSpot</li>
-                    <li><i class="fas fa-chart-pie"></i>Salesforce</li>
-                    <li><i class="fab fa-adobe"></i>Photoshop</li>
-                </ul>
-              </div>
-          </template>
-          <template slot = "tab-head-about">
-              about
-          </template>
-
-          <template slot ="tab-panel-about">
-              <h2 class="title">About Me</h2>
-              <p class="description"> {{ copy.about.intro }} </p>
-              <img class="tab-img" src="https://lh3.googleusercontent.com/3Ky0Nz9dh3lpJ7BLo-EhaczltFNocSdn5c-y8Y6TaaT0tr8co6MabGmIgV51bo1nj6M36giSRL-yvJYREIuvszJAKJJuxtAvnPmrkeBkNfyPd9r__xNBTE6UipAPVjD1jdhtrSQdJwbmTp4KRR-zISI78TtF22Zs8tYtkX_KcRkCoCywbZZfpg8Ph7dyP6ZVeFmpD4yS2TKXSoX0mIPEnwvGwk0soU6Gy3JidojQu77jCfrjdUycEJh2vXAtqmGUN1EVaeFeZAlzHuynqybo8R0WuzlY_52EI6ztDtLahZ2TNPodehaP6WRct3aDzK3gpV0OtToBzbRj73kU93LKo5jwj6-n3zuh2jiQc-H8OEPRt37YYBg2-vemXfSBj7O5uOkRKQIqMtt4I1zc9don8K-UhnBaRzPb_X1h7F8cK9Nge2qoHzHXmNaGTbifPlWsLk8yzhZ1RMLOXvsk8vYwxMLN2Fv5IVwH-FWoalAtpPtLXFU5529633PNCRgcSlqvkxWU8MiPLbEUVNVz_16PVn32oA1kjqcJt2b_DPRg_tjt5ZtZ05DtzzdSMs0tsuc296MS4NJdcYL-n5IjIzgCZ5nlcfQlZDQtFbAd17PYcO40jADbjbCnJ-E8hdqWnJUW36s7sqU9wnqk7AYOc-oY3-_FRN6-SQekisYX4UXHNekDXGZmD-bVwajhuETDD2M684BzYjgTfbE92_JJ4yVCQbG3ubkYWgJO_SsC1Gj2FmP-xNqs=w834-h625-no">
-              <p>{{ copy.about.interests }}</p>
-              <p>{{ copy.about.techInterests }}</p>
-          </template>
-
-          
-
-          <template slot="tab-head-projects">
-              projects
-          </template>
-
-          <template slot="tab-panel-projects">
-              <h2 class="title">No desc needed!</h2>
-              <p class="description">
-                  Lily J. Potter was a Bug
-              </p>
-          </template>
-
-          <template slot="tab-head-contact">
-              contact
-          </template>
-
-          <template slot="tab-panel-contact">
-              <h2 class="title">No desc needed!</h2>
-              <p class="description">
-                 CONTACT
-              </p>
-          </template>
-
-      </TabCard>
-
+  <div class="outer-container">
+    <div class="container">
+      <home-panel class="yellow"></home-panel>
+      <home-panel class="green"></home-panel>  
+      <home-panel class="blue"></home-panel>
+      <home-panel class="indigo"></home-panel> 
+      <home-panel class="violet"></home-panel>  
+      <home-panel class="red"></home-panel>  
+      <home-panel class="orange"></home-panel>  
     </div>
+    <div class="container">
+      <h1 class="main-heading">chris kieran</h1>
+      <h2 class="sub-heading">full-stack web developer</h2>  
+    </div>
+  </div>    
 </template>
 
 <script>
-import TabCard from './TabCard'
-import copy from '../copy.js'
+import Panel from './Panel.vue'
 
 export default {
-    components: {
-        TabCard
-    },
-    data() {
-        return {
-            initialTab: 'about',
-            tabs: ['about', 'skills', 'projects', 'contact'],
-            copy
-        };
-    },  
-};
+  components: {
+    homePanel: Panel
+  },
+
+}
 </script>
 
 <style lang="scss" scoped>
+.container {
+  background: black;
+  display: flex;
+  // flex-direction: row;
+}
+.main-heading {
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  font-size: 800%;
+  position: absolute;
+  margin-top: -400px;
+}
+.sub-heading {
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  margin-top: -180px;
+  font-size: 260%;
+}
+.yellow{
+  background-image: url("/../img/forest-yellow.jpg");
+  background-size: 600%;
+  margin-top: 240px;
+  height: 450px;
+  margin-left: 400px;
+}
+.green {
+  background-image: url("/../img/forest.jpg");
+  background-size: 600%;
+  margin-top: 220px;
+  height: 500px;
+}
+.blue {
+  background-image: url("/../img/blue-forest.jpg");
+  background-size: 800%;
+  margin-top: 200px;
+  height: 550px;
+}
+.indigo{
+  background-image: url("/../img/indigo-forest.jpg");
+  background-size: 300%;
+  background-position-y: bottom;
+  margin-top: 210px;
+  height: 400px;
+}
+.violet {
+  background-image: url("/../img/violet-forest.jpg");
+  background-size: 1000%;
+  margin-top: 190px;
+}
+.red {
+  background-image: url("/../img/red-forest.jpg");
+  background-size: 800%;
+  background-position-x: 50%;
+  height: 400px;
+  margin-top: 220px;
+}
+.orange {
+  background-image: url("/../img/orange-forest.jpg");
+  background-position-y: bottom;
+  background-size: 600%;
+  margin-top: 260px;
+  height: 300px;
+}
 
-.tab-container {
-    background-color: $palette2q4;
-    color: blue;
-}
-.tab-img {
-    width: 270px;
-    border-radius: 50%;
-}
-.skill-grid ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-}
-.skill-grid li {
-    margin: 5px;
-}
-.fas, .fab {
-    margin: 5px;
-    color: $palette2q1;
-}
 </style>
