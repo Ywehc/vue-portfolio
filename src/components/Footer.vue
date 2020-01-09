@@ -12,5 +12,6 @@
   background-color: $dark;
   color: $main-text-color;
   text-align: center;
+  height: 100px;
 }
 </style>

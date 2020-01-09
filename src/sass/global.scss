@@ -1,7 +1,9 @@
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import 'node_modules/bootstrap-vue/src/index.scss';
 
-$dark: #2D283E;
+@import url('https://fonts.googleapis.com/css?family=Heebo&display=swap');
+
+$dark: black;
 $main-text-color: #D1D7E0;
 $main-highlight-color: #802BB1;
 
