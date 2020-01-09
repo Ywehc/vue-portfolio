@@ -17,7 +17,7 @@
     font-weight: lighter;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 50px;
     margin-bottom: 0;
   }
 </style>
