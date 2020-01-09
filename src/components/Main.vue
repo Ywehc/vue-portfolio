@@ -3,35 +3,30 @@
     <div class="container">
       <Panels />
       <h1 class="main-heading">chris kieran</h1>
-      <h2 class="sub-heading">full-stack web developer</h2>  
-    </div>
-    <div class="container">
-      <ul>
-        <li>about</li>
-        <li>skills</li>
-        <li>portfolio</li>
-        <li>contact</li>
-      </ul>
+      <h2 class="sub-heading">full-stack web developer</h2>
+      <desktop-nav></desktop-nav>  
     </div>
   </div>    
 </template>
 
 <script>
 import Panels from './Panels.vue'
+import DesktopNav from './DesktopNav.vue'
 
 export default {
   components: {
-    Panels
+    Panels,
+    DesktopNav
   }
 }
 </script>
 
 <style lang="scss" scoped>
+
 .outer-container {
   background: $dark;
   padding-bottom: 30vh;
 }
-
 .main-heading {
   font-family: 'Heebo', sans-serif;
   color: white;
@@ -44,6 +39,38 @@ export default {
   color: white;
   margin-top: -180px;
   font-size: 260%;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-heading {
+    font-size: 600%;
+  }
+  .sub-heading {
+    font-size: 200%;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  .outer-container {
+    padding-bottom: 20px;
+  }
+  .main-heading {
+    margin-top: -500px;
+    font-size: 500%;
+  }
+  .sub-heading {
+    margin-top: -280px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-heading {
+    font-size: 400%;
+  }
+  .sub-heading {
+    font-size: 200%;
+    margin-top: -320px;
+  }
 }
 
 </style>

@@ -69,5 +69,30 @@ export default {
   margin-top: 260px;
   height: 300px;
 }
+
+@media screen and (max-width: 1200px) {
+  .yellow {
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width: 998px) {
+  .indigo {
+    margin-top: 90px;
+  }
+  .orange {
+    margin-top: 140px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .yellow {
+    margin-left: 110px;
+  }
+  .indigo {
+    margin-top: 0px;
+  }
+  .orange {
+    margin-top: 80px;
+  }
+}
     
 </style>
