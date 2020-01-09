@@ -1,7 +1,8 @@
 <template>
   <div>
     <Header></Header>
-    <Main></Main>
+    <Main v-if="windowWidth > 576"></Main>
+    <mobile-main else></mobile-main>
     <Footer></Footer>
   </div>
 </template>
@@ -10,16 +11,19 @@
 import Header from './Header.vue'
 import Main from './Main.vue'
 import Footer from './Footer.vue'
+import MobileMain from './MobileMain.vue'
 
 export default {
   components: {
     Header,
     Footer,
-    Main
+    Main,
+    MobileMain
+  },
+  data() {
+    return {
+      windowWidth: screen.width
+    }
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-</style>
