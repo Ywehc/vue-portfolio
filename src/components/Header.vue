@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <h2>chris kieran</h2>
+    <router-link tag="h2" to="/home">chris kieran</router-link>
   </div>
 </template>
 
