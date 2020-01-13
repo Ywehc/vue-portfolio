@@ -1,9 +1,21 @@
 <template>
   <div class="mobile-nav">
-          <button class="btn btn-outline-light">about</button>
-          <button class="btn btn-outline-light">skills</button>
-          <button class="btn btn-outline-light">portfolio</button>
-          <button class="btn btn-outline-light">contact</button>
+    <router-link 
+      tag="button" 
+      class="btn btn-outline-light"
+      to="/about">about</router-link>
+    <router-link 
+      tag="button" 
+      class="btn btn-outline-light"
+      to="/skills">skills</router-link>
+    <router-link 
+      tag="button" 
+      class="btn btn-outline-light"
+      to="skills">portfolio</router-link>
+    <router-link 
+      tag="button" 
+      class="btn btn-outline-light"
+      to="/skills">contact</router-link>
   </div>
 </template>
 
