@@ -22,7 +22,7 @@
 .nav-list {
         list-style-type: none;
         padding-left: 0;
-        color: white;
+        color: $light;
         font-size: 150%;
         display: flex;
         flex-direction: row;

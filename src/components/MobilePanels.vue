@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background: black;
+    background: $dark;
 }
 .mobile-panel {
     height: 400px;

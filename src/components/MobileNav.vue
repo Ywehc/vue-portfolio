@@ -25,8 +25,8 @@
 
 <style lang="scss" scoped>
 .mobile-nav {
-    color: white;
-    background: black;
+    color: $light;
+    background: $dark;
     padding: 40px;
     display: flex;
     flex-direction: column;

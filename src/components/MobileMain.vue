@@ -21,18 +21,18 @@ export default {
 
 <style lang="scss" scoped>
 .mobile-container {
-    background: black;
+    background: $dark;
     text-align: center;
 }
 .main-heading {
   font-family: 'Heebo', sans-serif;
-  color: white;
+  color: $light;
   font-size: 400%;
   margin-top: 40px;
 }
 .sub-heading {
   font-family: 'Heebo', sans-serif;
-  color: white;
+  color: $light;
 }
 
 </style>

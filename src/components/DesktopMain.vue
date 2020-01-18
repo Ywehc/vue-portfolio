@@ -1,11 +1,9 @@
 <template>
-  <div class="outer-container">
     <div class="container">
       <Panels />
       <h1 class="main-heading">chris kieran</h1>
       <h2 class="sub-heading">full-stack web developer</h2>
     </div>
-  </div>    
 </template>
 
 <script>
@@ -20,19 +18,16 @@ export default {
 
 <style lang="scss" scoped>
 
-.outer-container {
-  background: $dark;
-}
 .main-heading {
   font-family: 'Heebo', sans-serif;
-  color: white;
+  color: $light;
   font-size: 800%;
   position: absolute;
   margin-top: -400px;
 }
 .sub-heading {
   font-family: 'Heebo', sans-serif;
-  color: white;
+  color: $light;
   margin-top: -180px;
   font-size: 260%;
 }
@@ -47,9 +42,6 @@ export default {
 }
 
 @media screen and (max-width: 998px) {
-  .outer-container {
-    padding-bottom: 20px;
-  }
   .main-heading {
     margin-top: -500px;
     font-size: 500%;
