@@ -29,7 +29,7 @@
         text-align: center;
         justify-content: center;
         li {
-            margin: 250px 50px;
+            margin: 100px 50px;
         }
     }
 
