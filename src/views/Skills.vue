@@ -4,13 +4,15 @@
         <div class="row">
             <div class="col-6">
                 <p class="section-content"> {{ copy.skills.intro }}</p>
+                <p class="section-content"> {{ copy.skills.projects }}</p>
+                <p class="section-content"> {{ copy.skills.soft }}</p>
             </div>
             <div class="col-6 section-image-container">
                 <img src="../../public/img/macbook.jpg" alt="">
-            </div>
-            <div class="col-12">
-                <p class="section-content"> {{ copy.skills.soft }}</p>
-            </div>           
+                <a href="https://github.com/Ywehc" target="_blank">
+                    <p><i class="fab fa-github"></i>Github</p>
+                </a>
+            </div>       
         </div> 
         <br>
         <div class="skill-grid">
@@ -26,12 +28,13 @@
                 <li><i class="fas fa-envelope-open-text"></i>Foundation/HTML Emails</li>
                 <li><i class="fas fa-search"></i>SEO</li>
                 <li><i class="fas fa-mobile-alt"></i>Responsive Design</li>
-                <li><i class="fas fa-universal-access"></i>Accessibile Interfaces</li>
+                <li><i class="fas fa-universal-access"></i>Accessibility</li>
                 <li><i class="fab fa-wordpress"></i>WordPress/Shopify/HubSpot</li>
                 <li><i class="fas fa-chart-pie"></i>Salesforce</li>
                 <li><i class="fab fa-adobe"></i>Photoshop</li>
                 <li><i class="fab fa-python"></i>Python</li>
                 <li><i class="fas fa-book"></i>Documentation</li>
+                <li><i class="fas fa-tachometer-alt"></i>Testing</li>
             </ul>
         </div>      
     </div>
@@ -67,6 +70,27 @@ export default {
 }
 .section-image-container {
     text-align: center;
+    color: $light;
+    font-size: 170%;
+    .fab {
+        color: $darker;
+    }
+    p {
+        border:1px solid $darker;
+        border-radius: 5px;
+        width: 180px;
+        margin: auto;
+        padding: 3px;
+        cursor: pointer;
+    }
+    p:hover {
+        color: $dark;
+        background: $lighter;
+    }
+    a {
+        text-decoration: none;
+        color: $light;
+    }
 }
 .section-image-container img {
     width: 60%;
