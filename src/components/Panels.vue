@@ -22,7 +22,7 @@ export default {
 <style lang="scss" scoped>
 
 .container {
-  background: black;
+  background: $dark;
   display: flex;
 }
 .yellow{

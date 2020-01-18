@@ -1,7 +1,7 @@
 <template>
   <div class="global">
     <Header></Header>
-    <router-view></router-view>
+    <router-view class="router-view"></router-view>
     <Footer></Footer>
   </div>
 </template>
@@ -20,6 +20,9 @@ export default {
 
 <style lang="scss" scoped>
 .global {
-  background-color: black;
+  background-color: $dark;
+}
+.router-view {
+  min-height: 44vh;
 }
 </style>

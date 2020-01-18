@@ -15,7 +15,7 @@
     font-family: 'Libre Barcode 128 Text', cursive;
     font-size: 52px;
     font-weight: lighter;
-    color: white;
+    color: $light;
     text-align: center;
     padding: 50px;
     margin-bottom: 0;

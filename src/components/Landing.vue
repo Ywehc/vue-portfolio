@@ -53,7 +53,7 @@ header {
   width: 296px;
   height: 120px;
   margin: 10em auto;
-  background: white;
+  background: $light;
   color: $main-highlight-color;
   box-shadow: inset 0 0 0 1px $main-highlight-color;
 }
