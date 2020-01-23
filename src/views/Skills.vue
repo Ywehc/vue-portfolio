@@ -5,13 +5,11 @@
             <div class="col-6">
                 <p class="section-content"> {{ copy.skills.intro }}</p>
                 <p class="section-content"> {{ copy.skills.projects }}</p>
-                <p class="section-content"> {{ copy.skills.soft }}</p>
+                <!-- <p class="section-content"> {{ copy.skills.soft }}</p> -->
             </div>
             <div class="col-6 section-image-container">
                 <img src="../../public/img/macbook.jpg" alt="">
-                <a href="https://github.com/Ywehc" target="_blank">
-                    <p><i class="fab fa-github"></i>Github</p>
-                </a>
+
             </div>       
         </div> 
         <br>
@@ -100,15 +98,17 @@ export default {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
+    padding-left: 0;
+    justify-content: center;
 }
 .skill-grid li {
     margin: 15px;
     color: $light;
-    font-size: 140%;
+    font-size: 130%;
 }
 .fas, .fab {
     margin: 10px;
     color: $darker;
-    font-size: 140%;
+    font-size: 130%;
 }
 </style>

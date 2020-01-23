@@ -18,6 +18,11 @@
   background-color: $dark;
   color: $main-text-color;
   text-align: center;
+  font-weight: bold;
+}
+li:hover {
+  color: $darker;
+  cursor: pointer;
 }
 .nav-list {
         list-style-type: none;
