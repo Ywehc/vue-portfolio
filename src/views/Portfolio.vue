@@ -3,12 +3,12 @@
         <h1 class="section-heading">Portfolio</h1>
         <br>
         <div class="row">
-            <div class="col-2 icon-container">
+            <div class="col-1 icon-container">
                 <a href="https://propertrust.chriskieran.com/" target="_blank">
                     <i class="fas fa-home"></i>
                 </a>
             </div>
-            <div class="col-10">
+            <div class="col-11">
                 <a href="https://propertrust.chriskieran.com/" target="_blank">
                     <strong class="highlight-blue">Real Estate Sales Agreement Generator</strong>
                 </a>
@@ -17,12 +17,12 @@
         </div> 
         <br>
         <div class="row">
-            <div class="col-2 icon-container">
+            <div class="col-1 icon-container">
                 <a href="https://limitless-journey-87149.herokuapp.com/" target="_blank">
                     <i class="fas fa-campground"></i>
                 </a>
             </div>
-            <div class="col-10">
+            <div class="col-11">
                 <a href="https://limitless-journey-87149.herokuapp.com/" target="_blank">
                     <strong class="highlight-blue">Campsite Review</strong>
                 </a>
@@ -31,12 +31,12 @@
         </div>  
         <br>
         <div class="row">
-            <div class="col-2 icon-container">
+            <div class="col-1 icon-container">
                 <a href="https://codepen.io/Ywehc/full/BMQEQW" target="_blank">
                     <i class="fas fa-hockey-puck"></i>
                 </a>          
             </div>
-            <div class="col-10">
+            <div class="col-11">
                 <a href="https://codepen.io/Ywehc/full/BMQEQW" target="_blank">
                     <strong class="highlight-blue">Hockey Quotes</strong>
                 </a>
@@ -90,18 +90,28 @@ export default {
     color: $darker;
     font-size: 30px;
 }
+.highlight-blue:hover {
+    color: $lighter;
+}
 .icon-container {
     color: $darker;
-    text-align:center;
-    font-size: 340%;
+    text-align:left;
+    font-size: 280%;
 }
 .icon-container a {
     color: $darker;
 }
+.icon-container a:hover {
+    color: $light;
+}
 .github-link {
+    text-align: center;
     a {
         color: $darker;
         margin-left: 5px;
+    }
+    a:hover {
+        color: $light;
     }
 }
 .fa-github {

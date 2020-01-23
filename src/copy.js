@@ -2,7 +2,7 @@ export default {
         "about": {
             "intro": "Hailing from Toronto, Ontario I now reside in nearby London with my wonderful wife, son and dog.",
             "interests": "Besides spending time with my family I love animals, travel and being outdoors.",
-            "techInterests": "I truly enjoy web development but am also interested in a variety of other science and tech including astronomy, AR/VR, and security.",
+            "techInterests": "I truly enjoy web development but am also interested in a variety of other science and tech including astronomy, AR/VR, and security."
         },
         "skills": {
             "intro": "I enjoy both the logical and creative aspects of software development and take pride in not only becoming a better engineer every day but also making great user experience and design choices.",

@@ -13,11 +13,15 @@
 }
 .header h2 {
     font-family: 'Libre Barcode 128 Text', cursive;
-    font-size: 52px;
+    font-size: 62px;
     font-weight: lighter;
     color: $light;
     text-align: center;
     padding: 50px;
     margin-bottom: 0;
   }
+.header h2:hover {
+  color: $darker;
+  cursor: pointer;
+}
 </style>

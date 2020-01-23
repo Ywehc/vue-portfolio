@@ -23,6 +23,6 @@ export default {
   background-color: $dark;
 }
 .router-view {
-  min-height: 44vh;
+  height: 970px;
 }
 </style>
