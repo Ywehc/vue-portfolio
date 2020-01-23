@@ -13,6 +13,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 
 let main = require('./components/Main.vue').default;
+let landing = require('./components/Landing.vue').default;
 let about = require('./views/About.vue').default;
 let skills = require('./views/Skills.vue').default;
 let portfolio = require('./views/Portfolio.vue').default;
@@ -41,6 +42,10 @@ const routes = [{
 {
   path: '/contact',
   component: contact
+},
+{
+  path: '/landing',
+  component: landing
 }
 ];
 
