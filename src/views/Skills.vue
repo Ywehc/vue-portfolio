@@ -91,8 +91,7 @@ export default {
     }
 }
 .section-image-container img {
-    width: 60%;
-    border-radius: 50%;
+    width: 70%;
 }
 .skill-grid ul {
     display: flex;
