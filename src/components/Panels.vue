@@ -438,25 +438,44 @@ export default {
 @media screen and (max-width: 1200px) {
   .yellow {
     margin-left: 200px;
+    margin-top: 140px;
+  }
+  .green {
+    margin-top: 120px;
+  }
+  .blue {
+    margin-top: 100px;
+  }
+  .indigo {
+    margin-top: 110px;
+  }
+  .violet {
+    margin-top: 90px;
+  }
+  .red {
+    margin-top: 120px;
+  }
+  .orange {
+    margin-top: 160px;
   }
 }
 @media screen and (max-width: 998px) {
   .indigo {
-    margin-top: 90px;
+    margin-top: 0;
   }
   .orange {
-    margin-top: 140px;
+    margin-top: 40px;
   }
 }
 @media screen and (max-width: 768px) {
   .yellow {
-    margin-left: 110px;
+    margin-left: 0;
   }
   .indigo {
-    margin-top: 0px;
+    margin-top: -50px;
   }
   .orange {
-    margin-top: 80px;
+    margin-top: 50px;
   }
 }
     

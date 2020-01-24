@@ -22,41 +22,42 @@
     background: $dark;
 }
 .mobile-panel {
-    height: 400px;
+    height: 300px;
     width: 70px;
     background-size: 900%;
+    border-radius: 5px;
 }
 .yellow{
   background-image: url("/../img/forest-yellow.jpg");
-  margin-right: 5px;
+  margin: 4px 4px 4px 0px;
 }
 .green {
   background-image: url("/../img/forest.jpg");
   background-position: top;
-  margin: 5px;
+  margin: 4px;
 }
 .blue {
   background-image: url("/../img/blue-forest.jpg");
-  margin: 5px;
+  margin: 4px;
 }
 .indigo{
   background-image: url("/../img/indigo-forest.jpg");
   background-position: bottom;
-  margin: 5px;
+  margin: 4px;
 }
 .violet {
   background-image: url("/../img/violet-forest.jpg");
-  margin: 5px;
+  margin: 4px;
 }
 .red {
   background-image: url("/../img/red-forest.jpg");
   background-position: center;
-  margin: 5px;
+  margin: 4px;
 }
 .orange {
   background-image: url("/../img/orange-forest.jpg");
   background-position: center;
-  margin-left: 5px;
+  margin:  4px 0px 4px 4px;
 }
 
 </style>

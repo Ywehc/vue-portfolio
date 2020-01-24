@@ -1,13 +1,13 @@
 <template>
     <div class="container">
-        <h1 class="section-heading">Skills</h1>
+        <h1 class="section-heading">My Skills</h1>
         <div class="row">
-            <div class="col-6">
+            <div class="col-6 col-sm-12">
                 <p class="section-content"> {{ copy.skills.intro }}</p>
                 <p class="section-content"> {{ copy.skills.projects }}</p>
                 <!-- <p class="section-content"> {{ copy.skills.soft }}</p> -->
             </div>
-            <div class="col-6 section-image-container">
+            <div class="col-6 col-sm-0 section-image-container">
                 <img src="../../public/img/macbook.jpg" alt="">
 
             </div>       
@@ -109,5 +109,24 @@ export default {
     margin: 10px;
     color: $darker;
     font-size: 130%;
+}
+
+@media screen and (max-width: 1200px) {
+  .section-heading {
+      padding-left: $padding-1200;
+  }
+  .row {
+      padding: 0 $padding-1200;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .section-image-container {
+      display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .skill-grid li {
+      margin: 8px;
+  }
 }
 </style>

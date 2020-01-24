@@ -35,4 +35,14 @@ export default {
   color: $light;
 }
 
+@media screen and (max-width: 576px) {
+  .main-heading {
+    font-size: 260%;
+    margin-top: 20px;
+  }
+  .sub-heading {
+    font-size: 140%;
+  }
+}
+
 </style>

@@ -24,4 +24,11 @@
   color: $darker;
   cursor: pointer;
 }
+
+@media screen and (max-width: 576px) {
+  .header h2 {
+    font-size: 40px;
+    padding: 30px;
+  }
+}
 </style>
