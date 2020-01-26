@@ -2,15 +2,11 @@
     <div class="container">
         <h1 class="section-heading">My Skills</h1>
         <div class="row">
-            <div class="col-6 col-sm-12">
+            <div class="col-12">
                 <p class="section-content"> {{ copy.skills.intro }}</p>
                 <p class="section-content"> {{ copy.skills.projects }}</p>
                 <!-- <p class="section-content"> {{ copy.skills.soft }}</p> -->
-            </div>
-            <div class="col-6 col-sm-0 section-image-container">
-                <img src="../../public/img/macbook.jpg" alt="">
-
-            </div>       
+            </div>    
         </div> 
         <br>
         <div class="skill-grid">
@@ -117,11 +113,6 @@ export default {
   }
   .row {
       padding: 0 $padding-1200;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .section-image-container {
-      display: none;
   }
 }
 @media screen and (max-width: 768px) {

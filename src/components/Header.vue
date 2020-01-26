@@ -57,10 +57,15 @@ export default {
     color: $light;
     text-align: center;
     margin-bottom: 0;
+    padding: 40px;
+    font-size: 280%;
   }
 .desktop-header h2:hover {
   color: $darker;
   cursor: pointer;
+}
+.nav-menu {
+  display: none;
 }
 
 @media screen and (max-width: 576px) {
@@ -69,6 +74,7 @@ export default {
     background: $dark;
   }
   .nav-menu {
+    display: flex;
     margin: auto; 
     margin-top: 120px; 
     background-color: $light;
@@ -78,10 +84,9 @@ export default {
     margin-left: -30px;
     background: $darker!important;
     color: $light;
+    font-size: 50%;
   }
   .desktop-header {
-    padding: 20px;
-    font-size: 240%;
     display: none;
   }
 }

@@ -25,11 +25,12 @@ export default {
 .router-view {
   height: 970px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1500px) {
   .router-view {
-    height: 870px;
+    height: 800px;
   }
 }
+
 @media screen and (max-width: 576px) {
   .router-view {
     height: auto;
