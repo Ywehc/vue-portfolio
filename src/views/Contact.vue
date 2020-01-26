@@ -6,7 +6,7 @@
                 target="_blank" 
                 method="POST"
         >   
-            <div class="col-5 col-sm-8 form-top">
+            <div class="col-12 col-sm-8 form-top">
                 <div class="form-group">
                     <label for="name"></label>
                     <input  class="form-input form-control" 
@@ -146,6 +146,32 @@
   }
   .linkedin {
       display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .section-heading {
+      font-size: $mobile-heading-size;
+      margin: $mobile-heading-margin;
+  }
+  .section-content {
+      font-size: $mobile-content-size;
+  }
+  .section-image-container {
+      margin-top: 10px;
+  }
+  .section-heading, .row {
+      padding-left: $padding-576;
+      padding-right: $padding-576;
+  }
+  .fas, .fab {
+      font-size: 80%;
+      color: $lighter;
+  }
+  .linkedin-container {
+      display: none;
+  }
+  .contact-form {
+      margin-top: -30px;
   }
 }
 </style>

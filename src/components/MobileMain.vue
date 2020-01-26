@@ -1,20 +1,17 @@
 <template>
   <div class="mobile-container">
-    <mobile-panels></mobile-panels>
     <h1 class="main-heading">chris kieran</h1>
     <h2 class="sub-heading">full-stack web developer</h2>
-    <mobile-nav></mobile-nav>
+    <mobile-panels></mobile-panels>
   </div>
 </template>
 
 <script>
 import MobilePanels from './MobilePanels.vue'
-import MobileNav from './MobileNav.vue'
 
 export default {
   components: {
     MobilePanels,
-    MobileNav
   }
 }
 </script>
@@ -22,27 +19,18 @@ export default {
 <style lang="scss" scoped>
 .mobile-container {
     background: $dark;
-    text-align: center;
+    padding-top: 70px;
 }
 .main-heading {
-  font-family: 'Heebo', sans-serif;
-  color: $light;
-  font-size: 400%;
-  margin-top: 40px;
+  font-size: 230%;
 }
 .sub-heading {
+  font-size: 125%;
+}
+.main-heading, .sub-heading {
   font-family: 'Heebo', sans-serif;
   color: $light;
-}
-
-@media screen and (max-width: 576px) {
-  .main-heading {
-    font-size: 260%;
-    margin-top: 20px;
-  }
-  .sub-heading {
-    font-size: 140%;
-  }
+  margin-left: 80px;
 }
 
 </style>

@@ -27,14 +27,16 @@
 .mobile-nav {
     color: $light;
     background: $dark;
-    padding: 40px;
+    padding: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     .btn {
         padding: 10px;
-        font-size: 160%;
-        margin: 20px auto;
-        min-width: 220px;
+        font-size: 120%;
+        margin: 5px;
+        min-width: 120px;
     }
 }
 

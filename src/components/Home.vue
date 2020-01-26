@@ -1,8 +1,8 @@
 <template>
   <div class="global">
-    <Header></Header>
+    <Header class="header"></Header>
     <router-view class="router-view"></router-view>
-    <Footer></Footer>
+    <Footer class="footer"></Footer>
   </div>
 </template>
 
@@ -28,6 +28,15 @@ export default {
 @media screen and (max-width: 1200px) {
   .router-view {
     height: 870px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .router-view {
+    height: auto;
+    min-height: 510px;
+  }
+  .header {
+    background: $dark;
   }
 }
 </style>

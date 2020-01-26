@@ -2,14 +2,12 @@
     <div class="container">
         <h1 class="section-heading">About Me</h1>
         <div class="row">
-            <div class="col-6 col-sm-12">
+            <div class="col-12 col-md-6">
                 <p class="section-content"> {{ copy.about.intro }}</p>
-                <br>
                 <p class="section-content"> {{ copy.about.interests }}</p>
-                <br>
                 <p class="section-content"> {{ copy.about.techInterests }}</p>
             </div>
-            <div class="col-6 col-sm-12 section-image-container">
+            <div class="col-12 col-md-6  section-image-container">
                 <img src="../../public/img/chewychris.jpg" alt="">
             </div>
         </div> 
@@ -69,6 +67,22 @@ export default {
 @media screen and (max-width: 1200px) {
   .section-image-container {
       margin-top: 60px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .section-heading {
+      font-size: $mobile-heading-size;
+      margin: $mobile-heading-margin;
+  }
+  .section-content {
+      font-size: $mobile-content-size;
+  }
+  .section-image-container {
+      margin-top: 10px;
+  }
+  .section-heading, .row {
+      padding-left: $padding-576;
+      padding-right: $padding-576;
   }
 }
 </style>
