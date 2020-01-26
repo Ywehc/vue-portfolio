@@ -20,6 +20,8 @@ export default {
 .mobile-container {
     background: $dark;
     padding-top: 70px;
+    display: flex;
+    flex-direction: column;
 }
 .main-heading {
   font-size: 230%;
@@ -30,7 +32,8 @@ export default {
 .main-heading, .sub-heading {
   font-family: 'Heebo', sans-serif;
   color: $light;
-  margin-left: 80px;
+  // margin-left: 80px;
+  margin: auto;
 }
 
 </style>

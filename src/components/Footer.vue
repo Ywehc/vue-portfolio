@@ -1,11 +1,12 @@
 <template>
   <div class="footer">
-    <!-- <ul class="nav-list">
+    <ul class="nav-list">
+      <router-link tag="li" to="/home">home</router-link>
       <router-link tag="li" to="/about">about</router-link>
       <router-link tag="li" to="/skills">skills</router-link>
       <router-link tag="li" to="/portfolio">portfolio</router-link>
       <router-link tag="li" to="/contact">contact</router-link>
-    </ul> -->
+    </ul>
     <div class="icon-container">
       <i class="fab fa-github"></i>
       <i class="fab fa-linkedin"></i>
@@ -42,7 +43,7 @@ li:hover {
         text-align: center;
         justify-content: center;
         li {
-            margin: 100px 50px;
+            margin: 100px 30px;
         }
     }
 
@@ -56,18 +57,19 @@ li:hover {
 
 @media screen and (max-width: 576px) {
   .nav-list {
-      li {
-          margin: 5px;
-          border: 2px solid $light;
-          border-radius: 5px;
-          padding: 5px;
-      }
-      margin-top: 20px;
-      font-size: 180%;
-      font-family: 'Libre Barcode 128 Text', cursive;
-      font-weight: lighter;
-      color: $light;
-      text-align: center;
+    display: none;
+      // li {
+      //     margin: 5px;
+      //     border: 2px solid $light;
+      //     border-radius: 5px;
+      //     padding: 5px;
+      // }
+      // margin-top: 20px;
+      // font-size: 180%;
+      // font-family: 'Libre Barcode 128 Text', cursive;
+      // font-weight: lighter;
+      // color: $light;
+      // text-align: center;
   }
   .icon-container {
     font-size: 160%;
