@@ -34,17 +34,20 @@ export default {
 
 @media screen and (max-width: 1200px) {
   .main-heading {
-    font-size: 600%;
+    font-size: 500%;
+    padding-left: 50px;
+    margin-top: -350px;
   }
   .sub-heading {
     font-size: 200%;
+    padding-left: 50px;
   }
 }
 
 @media screen and (max-width: 998px) {
   .main-heading {
-    margin-top: -500px;
-    font-size: 500%;
+    margin-top: -420px;
+    font-size: 400%;
   }
   .sub-heading {
     margin-top: -280px;
@@ -54,10 +57,13 @@ export default {
 @media screen and (max-width: 768px) {
   .main-heading {
     font-size: 400%;
+    margin-top: -200px;
+    padding-left: 0;
   }
   .sub-heading {
     font-size: 200%;
-    margin-top: -320px;
+    margin-top: -120px;
+    padding-left: 0;
   }
 }
 

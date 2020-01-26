@@ -3,12 +3,12 @@
         <h1 class="section-heading">Portfolio</h1>
         <br>
         <div class="row">
-            <div class="col-1 icon-container">
+            <div class="col-2 col-md-2 col-sm-3 icon-container">
                 <a href="https://propertrust.chriskieran.com/" target="_blank">
                     <i class="fas fa-home"></i>
                 </a>
             </div>
-            <div class="col-11">
+            <div class="col-10 col-md-10 col-sm-9">
                 <a href="https://propertrust.chriskieran.com/" target="_blank">
                     <strong class="highlight-blue">Real Estate Sales Agreement Generator</strong>
                 </a>
@@ -17,12 +17,12 @@
         </div> 
         <br>
         <div class="row">
-            <div class="col-1 icon-container">
+            <div class="col-2 col-md-2 col-sm-3 icon-container">
                 <a href="https://limitless-journey-87149.herokuapp.com/" target="_blank">
                     <i class="fas fa-campground"></i>
                 </a>
             </div>
-            <div class="col-11">
+            <div class="col-10 col-md-10 col-sm-9">
                 <a href="https://limitless-journey-87149.herokuapp.com/" target="_blank">
                     <strong class="highlight-blue">Campsite Review</strong>
                 </a>
@@ -31,20 +31,18 @@
         </div>  
         <br>
         <div class="row">
-            <div class="col-1 icon-container">
+            <div class="col-2 col-md-2 col-sm-3 icon-container">
                 <a href="https://codepen.io/Ywehc/full/BMQEQW" target="_blank">
                     <i class="fas fa-hockey-puck"></i>
                 </a>          
             </div>
-            <div class="col-11">
+            <div class="col-10 col-md-10 col-sm-9">
                 <a href="https://codepen.io/Ywehc/full/BMQEQW" target="_blank">
                     <strong class="highlight-blue">Hockey Quotes</strong>
                 </a>
                 <p class="section-content"> {{ copy.portfolio.hockey}} </p>
             </div>         
         </div> 
-        <br>
-        <br>
         <br>
         <br>
         <p class="section-content github-link"> See more of my code on 
@@ -116,5 +114,45 @@ export default {
 }
 .fa-github {
     margin-left: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .section-heading {
+      padding-left: $padding-1200;
+  }
+  .row {
+      padding: 0 $padding-1200;
+  }
+}
+@media screen and (max-width: 768px) {
+    .highlight-blue {
+        font-size: 26px;
+    }
+    .section-content {
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 576px) {
+  .section-heading {
+      font-size: $mobile-heading-size;
+      margin: $mobile-heading-margin;
+  }
+  .section-content {
+      font-size: $mobile-content-size;
+  }
+  .section-image-container {
+      margin-top: 10px;
+  }
+  .section-heading, .row {
+      padding-left: $padding-576;
+      padding-right: $padding-576;
+  }
+  .fas, .fab {
+      font-size: 80%;
+      color: $lighter;
+  }
+  .row {
+      margin-top: -30px;
+  }
 }
 </style>

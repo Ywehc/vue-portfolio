@@ -6,7 +6,7 @@
                 target="_blank" 
                 method="POST"
         >   
-            <div class="col-5 form-top">
+            <div class="col-12 col-sm-8 form-top">
                 <div class="form-group">
                     <label for="name"></label>
                     <input  class="form-input form-control" 
@@ -37,7 +37,7 @@
                     >
                 </div> 
             </div>
-            <div class="col-7">
+            <div class="col-7 col-sm-4">
                 <a href="https://www.linkedin.com/in/chris-kieran" target="_blank">
                     <div class="linkedin-container">
                         <p class="linkedin">Connect with me on LinkedIn</p>
@@ -128,11 +128,50 @@
 .form-top, .form-group {
     padding: 0;
 }
-#name, #email, #phone {
-    
-}
 #message {
     font-size: 22px;
 }
 
+@media screen and (max-width: 1200px) {
+  .section-heading {
+      padding-left: $padding-1200;
+  }
+  form {
+      padding: 0 $padding-1200;
+  }
+}
+@media screen and (max-width: 768px) {
+  .linkedin-container {
+      width: 100px;
+  }
+  .linkedin {
+      display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .section-heading {
+      font-size: $mobile-heading-size;
+      margin: $mobile-heading-margin;
+  }
+  .section-content {
+      font-size: $mobile-content-size;
+  }
+  .section-image-container {
+      margin-top: 10px;
+  }
+  .section-heading, .row {
+      padding-left: $padding-576;
+      padding-right: $padding-576;
+  }
+  .fas, .fab {
+      font-size: 80%;
+      color: $lighter;
+  }
+  .linkedin-container {
+      display: none;
+  }
+  .contact-form {
+      margin-top: -30px;
+  }
+}
 </style>
