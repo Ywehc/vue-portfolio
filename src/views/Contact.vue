@@ -98,8 +98,8 @@
     font-size: 22px;
 }
 .button-submit {
-    font-size: 28px;
-    margin-top: 30px;
+    font-size: 18px;
+    margin-top: 15px;
 }
 .linkedin-container {
     background: $darker;
@@ -175,10 +175,6 @@
   }
   .contact-form {
       margin-top: -30px;
-  }
-  .button-submit {
-      font-size: 18px;
-      margin-top: 15px;
   }
 }
 </style>
