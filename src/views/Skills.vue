@@ -5,7 +5,6 @@
             <div class="col-12">
                 <p class="section-content"> {{ copy.skills.intro }}</p>
                 <p class="section-content"> {{ copy.skills.projects }}</p>
-                <!-- <p class="section-content"> {{ copy.skills.soft }}</p> -->
             </div>    
         </div> 
         <br>
@@ -118,6 +117,25 @@ export default {
 @media screen and (max-width: 768px) {
   .skill-grid li {
       margin: 8px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .section-heading {
+      font-size: $mobile-heading-size;
+      margin: $mobile-heading-margin;
+  }
+  .section-content {
+      font-size: $mobile-content-size;
+  }
+  .section-heading, .row {
+      padding-left: $padding-576;
+      padding-right: $padding-576;
+  }
+  .skill-grid ul {
+      justify-content: left;
+  }
+  .skill-grid li {
+      font-size: 14px;
   }
 }
 </style>

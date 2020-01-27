@@ -79,6 +79,9 @@ export default {
   }
   .section-image-container {
       margin-top: 10px;
+      img {
+          width: 40%;
+      }
   }
   .section-heading, .row {
       padding-left: $padding-576;
