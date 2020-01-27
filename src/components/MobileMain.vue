@@ -25,15 +25,15 @@ export default {
 }
 .main-heading {
   font-size: 230%;
+  margin: auto;
 }
 .sub-heading {
   font-size: 125%;
+  margin: 10px auto;
 }
 .main-heading, .sub-heading {
   font-family: 'Heebo', sans-serif;
-  color: $light;
-  // margin-left: 80px;
-  margin: auto;
+  color: $light; 
 }
 
 </style>

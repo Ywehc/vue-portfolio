@@ -149,6 +149,9 @@
   }
 }
 @media screen and (max-width: 576px) {
+    .form-input, #message {
+        font-size: 16px;
+    }  
   .section-heading {
       font-size: $mobile-heading-size;
       margin: $mobile-heading-margin;
@@ -172,6 +175,10 @@
   }
   .contact-form {
       margin-top: -30px;
+  }
+  .button-submit {
+      font-size: 18px;
+      margin-top: 15px;
   }
 }
 </style>

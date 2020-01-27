@@ -154,5 +154,8 @@ export default {
   .row {
       margin-top: -30px;
   }
+  .highlight-blue {
+        font-size: 22px;
+    }
 }
 </style>

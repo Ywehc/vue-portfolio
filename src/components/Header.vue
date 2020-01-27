@@ -4,7 +4,7 @@
     <div class="radial-helper"></div>
     <radial-menu
       class="nav-menu"
-      :itemSize="80"
+      :itemSize="70"
       :radius="100"
       :angle-restriction="180">
         <radial-menu-item 
@@ -31,7 +31,7 @@ export default {
   },
   data () {
     return {
-      items: ['home', 'about', 'portfolio', 'contact'],
+      items: ['home', 'about', 'skills', 'portfolio', 'contact'],
       lastClicked: 'click on something!'
     }
   },
@@ -60,7 +60,7 @@ export default {
     padding: 40px;
     font-size: 280%;
   }
-.desktop-header h2:hover {
+.desktop-header:hover {
   color: $darker;
   cursor: pointer;
 }
@@ -81,10 +81,10 @@ export default {
     font-family: $main-font;
   }
   .nav-item {
-    margin-left: -30px;
+    margin-left: -20px;
     background: $darker!important;
     color: $light;
-    font-size: 50%;
+    font-size: 44%;
   }
   .desktop-header {
     display: none;

@@ -5,14 +5,14 @@
       <router-link tag="li" to="/about">about</router-link>
       <router-link tag="li" to="/skills">skills</router-link>
       <router-link tag="li" to="/portfolio">portfolio</router-link>
-      <router-link tag="li" to="/contact">contact</router-link>
+      
     </ul>
     <div class="icon-container">
-      <i class="fab fa-github"></i>
-      <i class="fab fa-linkedin"></i>
-      <i class="fas fa-envelope"></i>
+      <a href="https://github.com/ywehc" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/chris-kieran/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <router-link tag="i" to="/contact" class="fas fa-envelope"></router-link>
     </div>
-    <p>&#x24B8; 2019 Chris Kieran</p>
+    <p>&#x24B8; 2020 Chris Kieran</p>
   </div>
 </template>
 
@@ -25,6 +25,7 @@
   color: $main-text-color;
   text-align: center;
   font-weight: bold;
+  min-height: 200px;
 }
 li:hover {
   color: $darker;
@@ -32,6 +33,10 @@ li:hover {
 }
 .icon-container {
   display: none;
+  color: $darker;
+}
+.icon-container a {
+  color: $darker;
 }
 .nav-list {
         list-style-type: none;
@@ -43,7 +48,7 @@ li:hover {
         text-align: center;
         justify-content: center;
         li {
-            margin: 100px 30px;
+            margin: 50px 30px;
         }
     }
 
@@ -56,20 +61,11 @@ li:hover {
 }
 
 @media screen and (max-width: 576px) {
+  .footer {
+    min-height: 110px;
+  }
   .nav-list {
     display: none;
-      // li {
-      //     margin: 5px;
-      //     border: 2px solid $light;
-      //     border-radius: 5px;
-      //     padding: 5px;
-      // }
-      // margin-top: 20px;
-      // font-size: 180%;
-      // font-family: 'Libre Barcode 128 Text', cursive;
-      // font-weight: lighter;
-      // color: $light;
-      // text-align: center;
   }
   .icon-container {
     font-size: 160%;
@@ -81,7 +77,6 @@ li:hover {
   }
   p {
     color: $darker;
-    padding-bottom: 20px;
   }
 }
 </style>
