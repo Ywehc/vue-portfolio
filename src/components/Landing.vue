@@ -19,7 +19,7 @@
   }
   h1 {
     font-family: 'Libre Barcode 128 Text', 'Heebo';
-    font-size: 52px;
+    font-size: 44px;
     font-weight: lighter;
     color: $lighter;
     padding-top: 30px;

@@ -5,6 +5,7 @@
       <router-link tag="li" to="/about">about</router-link>
       <router-link tag="li" to="/skills">skills</router-link>
       <router-link tag="li" to="/portfolio">portfolio</router-link>
+      <router-link tag="li" to="/contact">contact</router-link>
       
     </ul>
     <div class="icon-container">
