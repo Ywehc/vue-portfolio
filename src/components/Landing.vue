@@ -18,7 +18,7 @@
     text-align: center;
   }
   h1 {
-    font-family: 'Libre Barcode 128 Text', 'Heebo';
+    font-family: $barcode;
     font-size: 44px;
     font-weight: lighter;
     color: $lighter;
