@@ -6,7 +6,6 @@
       <router-link tag="li" to="/skills">skills</router-link>
       <router-link tag="li" to="/portfolio">portfolio</router-link>
       <router-link tag="li" to="/contact">contact</router-link>
-      
     </ul>
     <div class="icon-container">
       <a href="https://github.com/ywehc" target="_blank"><i class="fab fa-github"></i></a>
@@ -26,15 +25,19 @@
   color: $main-text-color;
   text-align: center;
   font-weight: bold;
-  min-height: 200px;
+  min-height: 550px;
 }
 li:hover {
   color: $darker;
   cursor: pointer;
 }
 .icon-container {
-  display: none;
   color: $darker;
+  margin-top: 100px;
+  font-size: 200%;
+  .fab, .fas {
+    margin: 8px;
+  }
 }
 .icon-container a {
   color: $darker;
@@ -72,9 +75,6 @@ li:hover {
     font-size: 160%;
     display: block;
     margin: 20px auto;
-  }
-  .fab, .fas {
-    margin: 8px;
   }
   p {
     color: $darker;

@@ -15,7 +15,6 @@
                 <p class="section-content"> {{ copy.portfolio.realEstate}} </p>
             </div>         
         </div> 
-        <br>
         <div class="row">
             <div class="col-2 col-md-2 col-sm-3 icon-container">
                 <a href="https://limitless-journey-87149.herokuapp.com/" target="_blank">
@@ -29,7 +28,6 @@
                 <p class="section-content"> {{ copy.portfolio.campsite}} </p>
             </div>         
         </div>  
-        <br>
         <div class="row">
             <div class="col-2 col-md-2 col-sm-3 icon-container">
                 <a href="https://codepen.io/Ywehc/full/BMQEQW" target="_blank">
@@ -43,7 +41,6 @@
                 <p class="section-content"> {{ copy.portfolio.hockey}} </p>
             </div>         
         </div> 
-        <br>
         <br>
         <p class="section-content github-link"> See more of my code on 
             <a href="https://github.com/Ywehc" target="_blank">
