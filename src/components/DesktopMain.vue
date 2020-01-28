@@ -28,7 +28,7 @@ export default {
 .sub-heading {
   font-family: 'Heebo', sans-serif;
   color: $light;
-  margin-top: -180px;
+  margin-top: -200px;
   font-size: 260%;
 }
 

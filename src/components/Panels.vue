@@ -28,46 +28,46 @@ export default {
 .yellow{
   background-image: url("/../img/forest-yellow.jpg");
   background-size: 600%;
-  margin-top: 240px;
+  margin-top: 160px;
   height: 450px;
   margin-left: 400px;
 }
 .green {
   background-image: url("/../img/forest.jpg");
   background-size: 600%;
-  margin-top: 220px;
+  margin-top: 140px;
   height: 500px;
 }
 .blue {
   background-image: url("/../img/blue-forest.jpg");
   background-size: 800%;
-  margin-top: 200px;
+  margin-top: 120px;
   height: 550px;
 }
 .indigo{
   background-image: url("/../img/indigo-forest.jpg");
   background-size: 300%;
   background-position-y: bottom;
-  margin-top: 210px;
+  margin-top: 130px;
   height: 400px;
 }
 .violet {
   background-image: url("/../img/violet-forest.jpg");
   background-size: 1000%;
-  margin-top: 190px;
+  margin-top: 110px;
 }
 .red {
   background-image: url("/../img/red-forest.jpg");
   background-size: 800%;
   background-position-x: 50%;
   height: 400px;
-  margin-top: 220px;
+  margin-top: 140px;
 }
 .orange {
   background-image: url("/../img/orange-forest.jpg");
-  background-position-y: bottom;
+  background-position: bottom center;
   background-size: 600%;
-  margin-top: 260px;
+  margin-top: 180px;
   height: 300px;
 }
 

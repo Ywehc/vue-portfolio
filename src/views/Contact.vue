@@ -49,7 +49,7 @@
                     <label for="message"></label>
                     <textarea  
                             class="form-input form-control" 
-                            rows="10"
+                            rows="7"
                             type="text" 
                             name="message" 
                             id="message"
