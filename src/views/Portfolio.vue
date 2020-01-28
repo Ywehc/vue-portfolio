@@ -15,7 +15,7 @@
                 <p class="section-content"> {{ copy.portfolio.realEstate}} </p>
             </div>         
         </div> 
-        <div class="row">
+        <div class="row project-2">
             <div class="col-2 col-md-2 col-sm-3 icon-container">
                 <a href="https://limitless-journey-87149.herokuapp.com/" target="_blank">
                     <i class="fas fa-campground"></i>
@@ -28,7 +28,7 @@
                 <p class="section-content"> {{ copy.portfolio.campsite}} </p>
             </div>         
         </div>  
-        <div class="row">
+        <div class="row project-3">
             <div class="col-2 col-md-2 col-sm-3 icon-container">
                 <a href="https://codepen.io/Ywehc/full/BMQEQW" target="_blank">
                     <i class="fas fa-hockey-puck"></i>
@@ -113,14 +113,6 @@ export default {
     margin-left: 10px;
 }
 
-@media screen and (max-width: 1200px) {
-  .section-heading {
-      padding-left: $padding-1200;
-  }
-  .row {
-      padding: 0 $padding-1200;
-  }
-}
 @media screen and (max-width: 768px) {
     .highlight-blue {
         font-size: 26px;
@@ -147,9 +139,6 @@ export default {
   .fas, .fab {
       font-size: 80%;
       color: $lighter;
-  }
-  .row {
-      margin-top: -30px;
   }
   .highlight-blue {
         font-size: 22px;
