@@ -25,6 +25,11 @@ export default {
 .router-view {
   height: 650px;
 }
+@media screen and (max-width: 970px) {
+  .router-view {
+    height: 700px;
+  }
+}
 
 @media screen and (max-width: 576px) {
   .router-view {

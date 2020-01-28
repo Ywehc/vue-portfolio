@@ -8,27 +8,31 @@
             </div>    
         </div> 
         <br>
-        <div class="skill-grid">
-            <ul>
-                <li><i class="fab fa-js"></i>JavaScript</li>
-                <li><i class="fab fa-css3-alt"></i>CSS/CSS preprocessors</li>
-                <li><i class="fab fa-vuejs"></i>Vue.js</li>
-                <li><i class="fab fa-react"></i>React.js</li>
-                <li><i class="fas fa-code"></i>Bootstrap</li>
-                <li><i class="fab fa-git"></i>Version Control</li>
-                <li><i class="fas fa-server"></i>Hosting</li>
-                <li><i class="fab fa-aws"></i>AWS</li>
-                <li><i class="fas fa-envelope-open-text"></i>Foundation/HTML Emails</li>
-                <li><i class="fas fa-search"></i>SEO</li>
-                <li><i class="fas fa-mobile-alt"></i>Responsive Design</li>
-                <li><i class="fas fa-universal-access"></i>Accessibility</li>
-                <li><i class="fab fa-wordpress"></i>WordPress/Shopify/HubSpot</li>
-                <li><i class="fas fa-chart-pie"></i>Salesforce</li>
-                <li><i class="fab fa-adobe"></i>Photoshop</li>
-                <li><i class="fab fa-python"></i>Python</li>
-                <li><i class="fas fa-book"></i>Documentation</li>
-                <li><i class="fas fa-tachometer-alt"></i>Testing</li>
-            </ul>
+        <div class="skill-grid row">
+            <div class="col-12 col-sm-4 skill-column">
+                <div class="skill"><i class="fab fa-js"></i>JavaScript</div>
+                <div class="skill"><i class="fab fa-css3-alt"></i>CSS/CSS preprocessors</div>
+                <div class="skill"><i class="fab fa-vuejs"></i>Vue.js</div>
+                <div class="skill"><i class="fab fa-react"></i>React.js</div>
+                <div class="skill"><i class="fas fa-code"></i>Bootstrap</div>
+                <div class="skill"><i class="fab fa-python"></i>Python</div>
+            </div>              
+            <div class="col-12 col-sm-4 skill-column">
+                <div class="skill"><i class="fab fa-git"></i>Version Control</div>
+                <div class="skill"><i class="fas fa-server"></i>Hosting</div>
+                <div class="skill"><i class="fab fa-aws"></i>AWS</div>
+                <div class="skill"><i class="fas fa-envelope-open-text"></i>Foundation/HTML Emails</div>           
+                <div class="skill"><i class="fas fa-book"></i>Documentation</div>
+                <div class="skill"><i class="fab fa-wordpress"></i>WordPress/Shopify/HubSpot</div>
+            </div>
+            <div class="col-12 col-sm-4 skill-column">
+                <div class="skill"><i class="fas fa-mobile-alt"></i>Responsive Design</div>
+                <div class="skill"><i class="fas fa-universal-access"></i>Accessibility</div>
+                <div class="skill"><i class="fas fa-search"></i>SEO</div>
+                <div class="skill"><i class="fas fa-chart-pie"></i>Salesforce</div>
+                <div class="skill"><i class="fab fa-adobe"></i>Photoshop</div>
+                <div class="skill"><i class="fas fa-tachometer-alt"></i>Testing</div>
+            </div>
         </div>      
     </div>
 </template>
@@ -61,41 +65,8 @@ export default {
 .section-heading, .section-content {
     color: $light;
 }
-.section-image-container {
-    text-align: center;
-    color: $light;
-    font-size: 170%;
-    .fab {
-        color: $darker;
-    }
-    p {
-        border:1px solid $darker;
-        border-radius: 5px;
-        width: 180px;
-        margin: auto;
-        padding: 3px;
-        cursor: pointer;
-    }
-    p:hover {
-        color: $dark;
-        background: $lighter;
-    }
-    a {
-        text-decoration: none;
-        color: $light;
-    }
-}
-.section-image-container img {
-    width: 70%;
-}
-.skill-grid ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    padding-left: 0;
-    justify-content: center;
-}
-.skill-grid li {
+
+.skill {
     margin: 15px;
     color: $light;
     font-size: 130%;
@@ -107,16 +78,19 @@ export default {
 }
 
 @media screen and (max-width: 1200px) {
-  .section-heading {
-      padding-left: $padding-1200;
+//     .skill, .fas, .fab {
+//         font-size: 110%;
+//   }
+  .skill {
+      margin: 10px;
   }
-  .row {
-      padding: 0 $padding-1200;
+  .fas, .fab {
+      margin: 6px;
   }
 }
-@media screen and (max-width: 768px) {
-  .skill-grid li {
-      margin: 8px;
+@media screen and (max-width: 970px) {
+  .skill, .fas, .fab {
+      font-size: 110%;
   }
 }
 @media screen and (max-width: 576px) {
