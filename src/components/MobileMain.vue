@@ -1,7 +1,7 @@
 <template>
   <div class="mobile-container">
     <h1 class="main-heading">chris kieran</h1>
-    <h2 class="sub-heading">full-stack web developer</h2>
+    <h2 class="sub-heading">frontend web developer</h2>
     <mobile-panels></mobile-panels>
   </div>
 </template>

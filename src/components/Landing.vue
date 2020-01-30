@@ -5,7 +5,7 @@
             <h1>chris kieran</h1>        
         </header>
     </div> 
-    <h2>web development</h2> 
+    <h2>frontend web developer</h2> 
   </div>
 </template>
 

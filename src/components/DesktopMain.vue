@@ -2,7 +2,7 @@
     <div class="container">
       <Panels />
       <h1 class="main-heading">chris kieran</h1>
-      <h2 class="sub-heading">full-stack web developer</h2>
+      <h2 class="sub-heading">frontend web developer</h2>
     </div>
 </template>
 
@@ -18,39 +18,41 @@ export default {
 
 <style lang="scss" scoped>
 
-.main-heading {
-  font-family: 'Heebo', sans-serif;
-  color: $light;
-  font-size: 800%;
+.main-heading {  
+  font-size: 600%;
   position: absolute;
-  margin-top: -400px;
+  margin-top: -470px;
 }
 .sub-heading {
+  margin-top: -360px;
+  font-size: 180%;
+}
+.main-heading, .sub-heading {
   font-family: 'Heebo', sans-serif;
   color: $light;
-  margin-top: -200px;
-  font-size: 260%;
+  margin-left: 140px;
 }
 
 @media screen and (max-width: 1200px) {
   .main-heading {
-    font-size: 500%;
-    padding-left: 50px;
-    margin-top: -350px;
+    font-size: 400%;
+    margin-top: -450px;
   }
   .sub-heading {
     font-size: 200%;
-    padding-left: 50px;
+    margin-top: -380px;
   }
 }
 
 @media screen and (max-width: 998px) {
   .main-heading {
-    margin-top: -420px;
-    font-size: 400%;
+    margin-top: -450px;
   }
   .sub-heading {
-    margin-top: -280px;
+    margin-top: -380px;
+  }
+  .main-heading, .sub-heading {
+    margin-left: 50px;
   }
 }
 

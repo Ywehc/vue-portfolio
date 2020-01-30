@@ -5,8 +5,8 @@
 
 <style lang="scss" scoped>
 .panel {
-    width: 80px;
-    margin: 10px;
+    width: 60px;
+    margin: 6px;
     background-repeat: no-repeat;
     border-radius: 5px;
 }
@@ -36,11 +36,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .panel {
-      width: 70px;
-  }
-}
-@media screen and (max-width: 998px) {
   .panel {
       width: 50px;
   }
