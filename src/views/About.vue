@@ -4,6 +4,7 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <p class="section-content"> {{ copy.about.intro }}</p>
+                <p class="section-content"> {{ copy.about.work }}</p>
                 <p class="section-content"> {{ copy.about.interests }}</p>
                 <p class="section-content"> {{ copy.about.techInterests }}</p>
             </div>
