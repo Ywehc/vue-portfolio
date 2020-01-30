@@ -25,7 +25,7 @@
   color: $main-text-color;
   text-align: center;
   font-weight: bold;
-  min-height: 550px;
+  min-height: 760px;
 }
 li:hover {
   color: $darker;
@@ -33,7 +33,6 @@ li:hover {
 }
 .icon-container {
   color: $darker;
-  margin-top: 100px;
   font-size: 200%;
   .fab, .fas {
     margin: 8px;
@@ -51,6 +50,7 @@ li:hover {
         flex-direction: row;
         text-align: center;
         justify-content: center;
+        margin-bottom: 0;
         li {
             margin: 50px 30px;
         }

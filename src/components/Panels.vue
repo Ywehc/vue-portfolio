@@ -28,46 +28,46 @@ export default {
 .yellow{
   background-image: url("/../img/forest-yellow.jpg");
   background-size: 600%;
-  margin-top: 160px;
-  height: 550px;
+  margin-top: 60px;
+  height: 350px;
   margin-left: 400px;
 }
 .green {
   background-image: url("/../img/forest.jpg");
   background-size: 600%;
-  margin-top: 140px;
-  height: 600px;
+  margin-top: 40px;
+  height: 350px;
 }
 .blue {
   background-image: url("/../img/blue-forest.jpg");
   background-size: 800%;
-  margin-top: 120px;
-  height: 650px;
+  margin-top: 20px;
+  height: 350px;
 }
 .indigo{
   background-image: url("/../img/indigo-forest.jpg");
   background-size: 300%;
-  margin-top: 110px;
+  margin-top: 10px;
   height: 350px;
 }
 .violet {
   background-image: url("/../img/violet-forest.jpg");
   background-size: 1000%;
-  margin-top: 110px;
-  height: 600px;
+  margin-top: 10px;
+  height: 350px;
 }
 .red {
   background-image: url("/../img/red-forest.jpg");
   background-size: 800%;
   background-position-x: 50%;
-  height: 500px;
-  margin-top: 120px;
+  height: 350px;
+  margin-top: 20px;
 }
 .orange {
   background-image: url("/../img/orange-forest.jpg");
   background-position: bottom center;
   background-size: 600%;
-  height: 400px;
+  height: 300px;
 }
 
 .fade-in-yellow {
@@ -468,6 +468,9 @@ export default {
 @media screen and (max-width: 768px) {
   .yellow {
     margin-left: 0;
+  }
+  .yellow, .green, .blue, .indigo, .violet, .red, .orange {
+    height: 220px;
   }
 }
     

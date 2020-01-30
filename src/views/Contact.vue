@@ -49,7 +49,7 @@
                     <label for="message"></label>
                     <textarea  
                             class="form-input form-control" 
-                            rows="7"
+                            rows="4"
                             type="text" 
                             name="message" 
                             id="message"
@@ -91,11 +91,10 @@
     border-radius: .25rem;
 }
 .form-group {
-    margin: 0;
+    margin-bottom: 0;
 }
 .form-input {
-    padding: 20px;
-    font-size: 22px;
+    font-size: 16px;
 }
 .button-submit {
     font-size: 18px;
@@ -129,7 +128,7 @@
     padding: 0;
 }
 #message {
-    font-size: 22px;
+    font-size: 16px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -139,13 +138,20 @@
   form {
       padding: 0 $padding-1200;
   }
+  .linkedin-container {
+      width: 200px;
+      margin-top: 22px;
+  }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 970px) {
   .linkedin-container {
       width: 100px;
   }
   .linkedin {
       display: none;
+  }
+  .section-heading {
+      margin-bottom: 0;
   }
 }
 @media screen and (max-width: 576px) {

@@ -23,12 +23,7 @@ export default {
   background-color: $dark;
 }
 .router-view {
-  height: 650px;
-}
-@media screen and (max-width: 970px) {
-  .router-view {
-    height: 700px;
-  }
+  height: 410px;
 }
 
 @media screen and (max-width: 576px) {

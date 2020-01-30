@@ -41,7 +41,6 @@
                 <p class="section-content"> {{ copy.portfolio.hockey}} </p>
             </div>         
         </div> 
-        <br>
         <p class="section-content github-link"> See more of my code on 
             <a href="https://github.com/Ywehc" target="_blank">
                 Github<i class="fab fa-github"></i>
@@ -83,7 +82,7 @@ export default {
 }
 .highlight-blue {
     color: $darker;
-    font-size: 30px;
+    font-size: 18px;
 }
 .highlight-blue:hover {
     color: $lighter;
