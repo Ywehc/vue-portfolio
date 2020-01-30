@@ -29,46 +29,45 @@ export default {
   background-image: url("/../img/forest-yellow.jpg");
   background-size: 600%;
   margin-top: 160px;
-  height: 450px;
+  height: 550px;
   margin-left: 400px;
 }
 .green {
   background-image: url("/../img/forest.jpg");
   background-size: 600%;
   margin-top: 140px;
-  height: 500px;
+  height: 600px;
 }
 .blue {
   background-image: url("/../img/blue-forest.jpg");
   background-size: 800%;
   margin-top: 120px;
-  height: 550px;
+  height: 650px;
 }
 .indigo{
   background-image: url("/../img/indigo-forest.jpg");
   background-size: 300%;
-  background-position-y: bottom;
-  margin-top: 130px;
-  height: 400px;
+  margin-top: 110px;
+  height: 350px;
 }
 .violet {
   background-image: url("/../img/violet-forest.jpg");
   background-size: 1000%;
   margin-top: 110px;
+  height: 600px;
 }
 .red {
   background-image: url("/../img/red-forest.jpg");
   background-size: 800%;
   background-position-x: 50%;
-  height: 400px;
-  margin-top: 140px;
+  height: 500px;
+  margin-top: 120px;
 }
 .orange {
   background-image: url("/../img/orange-forest.jpg");
   background-position: bottom center;
   background-size: 600%;
-  margin-top: 180px;
-  height: 300px;
+  height: 400px;
 }
 
 .fade-in-yellow {
@@ -437,7 +436,7 @@ export default {
 
 @media screen and (max-width: 1200px) {
   .yellow {
-    margin-left: 200px;
+    margin-left: 250px;
     margin-top: 140px;
   }
   .green {
@@ -447,35 +446,28 @@ export default {
     margin-top: 100px;
   }
   .indigo {
-    margin-top: 110px;
+    margin-top: 90px;
   }
   .violet {
     margin-top: 90px;
   }
   .red {
-    margin-top: 120px;
+    margin-top: 100px;
   }
   .orange {
-    margin-top: 160px;
+    height: 220px;
+    background-size: 400px;
+    margin-top: 120px;
   }
 }
 @media screen and (max-width: 998px) {
-  .indigo {
-    margin-top: 0;
-  }
-  .orange {
-    margin-top: 40px;
+  .yellow {
+    margin-left: 150px;
   }
 }
 @media screen and (max-width: 768px) {
   .yellow {
     margin-left: 0;
-  }
-  .indigo {
-    margin-top: -50px;
-  }
-  .orange {
-    margin-top: 50px;
   }
 }
     
