@@ -9,25 +9,27 @@
         </div> 
         <br>
         <div class="skill-grid row">
-            <div class="col-12 col-sm-4 skill-column">
+            <div class="col-12 col-sm-3 skill-column">
                 <div class="skill"><i class="fab fa-js"></i>JavaScript</div>
                 <div class="skill"><i class="fab fa-css3-alt"></i>CSS/CSS preprocessors</div>
                 <div class="skill"><i class="fab fa-vuejs"></i>Vue.js</div>
                 <div class="skill"><i class="fab fa-react"></i>React.js</div>
                 <div class="skill"><i class="fas fa-code"></i>Bootstrap</div>
+            </div>  
+            <div class="col-12 col-sm-3 skill-column">
                 <div class="skill"><i class="fab fa-python"></i>Python</div>
-            </div>              
-            <div class="col-12 col-sm-4 skill-column">
                 <div class="skill"><i class="fab fa-git"></i>Version Control</div>
-                <div class="skill"><i class="fas fa-server"></i>Hosting</div>
-                <div class="skill"><i class="fab fa-aws"></i>AWS</div>
-                <div class="skill"><i class="fas fa-envelope-open-text"></i>Foundation/HTML Emails</div>           
-                <div class="skill"><i class="fas fa-book"></i>Documentation</div>
-                <div class="skill"><i class="fab fa-wordpress"></i>WordPress/Shopify/HubSpot</div>
-            </div>
-            <div class="col-12 col-sm-4 skill-column">
+                <div class="skill"><i class="fas fa-server"></i>Hosting</div>  
+                <div class="skill"><i class="fab fa-aws"></i>AWS</div> 
+                <div class="skill"><i class="fab fa-wordpress"></i>WordPress/Shopify/HubSpot</div>                        
+            </div>            
+            <div class="col-12 col-sm-3 skill-column">
+                <div class="skill"><i class="fas fa-envelope-open-text"></i>Foundation/HTML Emails</div> 
+                <div class="skill"><i class="fas fa-book"></i>Documentation</div>           
                 <div class="skill"><i class="fas fa-mobile-alt"></i>Responsive Design</div>
                 <div class="skill"><i class="fas fa-universal-access"></i>Accessibility</div>
+            </div>
+            <div class="col-12 col-sm-3 skill-column">
                 <div class="skill"><i class="fas fa-search"></i>SEO</div>
                 <div class="skill"><i class="fas fa-chart-pie"></i>Salesforce</div>
                 <div class="skill"><i class="fab fa-adobe"></i>Photoshop</div>
@@ -67,30 +69,17 @@ export default {
 }
 
 .skill {
-    margin: 15px;
+    margin: 5px;
     color: $light;
-    font-size: 130%;
 }
 .fas, .fab {
-    margin: 10px;
+    margin: 5px;
     color: $darker;
-    font-size: 130%;
 }
 
-@media screen and (max-width: 1200px) {
-//     .skill, .fas, .fab {
-//         font-size: 110%;
-//   }
-  .skill {
-      margin: 10px;
-  }
-  .fas, .fab {
-      margin: 6px;
-  }
-}
 @media screen and (max-width: 970px) {
   .skill, .fas, .fab {
-      font-size: 110%;
+      font-size: 14px;
   }
 }
 @media screen and (max-width: 576px) {

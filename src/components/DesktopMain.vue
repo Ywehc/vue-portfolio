@@ -21,10 +21,10 @@ export default {
 .main-heading {  
   font-size: 600%;
   position: absolute;
-  margin-top: -470px;
+  margin-top: -170px;
 }
 .sub-heading {
-  margin-top: -360px;
+  margin-top: -60px;
   font-size: 180%;
 }
 .main-heading, .sub-heading {
@@ -36,36 +36,33 @@ export default {
 @media screen and (max-width: 1200px) {
   .main-heading {
     font-size: 400%;
-    margin-top: -450px;
+    margin-top: -200px;
   }
   .sub-heading {
     font-size: 200%;
-    margin-top: -380px;
+    margin-top: -130px;
   }
 }
 
 @media screen and (max-width: 998px) {
-  .main-heading {
-    margin-top: -450px;
-  }
-  .sub-heading {
-    margin-top: -380px;
-  }
   .main-heading, .sub-heading {
     margin-left: 50px;
   }
 }
 
 @media screen and (max-width: 768px) {
+  .container {
+    justify-content: center;
+  }
   .main-heading {
-    font-size: 400%;
-    margin-top: -200px;
-    padding-left: 0;
+    margin: auto;
+    position: relative;
+    text-align: center;
   }
   .sub-heading {
-    font-size: 200%;
-    margin-top: -120px;
-    padding-left: 0;
+    margin-top: 0;
+    margin-left: 0;
+    text-align: center;
   }
 }
 

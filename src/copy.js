@@ -2,7 +2,7 @@ export default {
         "about": {
             "intro": "Hailing from Toronto, Ontario I now reside in nearby London with my wonderful wife, son and dog.",
             "interests": "Besides spending time with my family I love animals, travel and being outdoors.",
-            "work": "Working at Mobials Inc I'm focused on Frontend Vue.js development but I am also also exposed to lots of PHP and the opportunity to do some backend development and database work.",
+            "work": "Working at Mobials Inc I'm focused on Frontend Vue.js development but I am also also exposed to lots of PHP and the opportunity to do some backend development, too.",
             "techInterests": "I truly enjoy web development but am also interested in a variety of other science and tech including astronomy, AR/VR, and security."
         },
         "skills": {

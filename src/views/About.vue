@@ -64,10 +64,19 @@ export default {
   .section-heading, .row {
       padding-left: $padding-1200;
   }
-}
-@media screen and (max-width: 1200px) {
   .section-image-container {
       margin-top: 60px;
+  }
+}
+@media screen and (max-width: 970px) {
+  .section-heading, .row {
+      padding-left: $padding-1200;
+  }
+  .section-image-container {
+      margin-top: 60px;
+  }
+  .section-content {
+      font-size: 14px;
   }
 }
 @media screen and (max-width: 576px) {
