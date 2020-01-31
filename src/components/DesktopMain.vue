@@ -19,13 +19,13 @@ export default {
 <style lang="scss" scoped>
 
 .main-heading {  
-  font-size: 600%;
+  font-size: 450%;
   position: absolute;
-  margin-top: -170px;
+  margin-top: -70px;
 }
 .sub-heading {
-  margin-top: -60px;
   font-size: 180%;
+  margin-top: 10px;
 }
 .main-heading, .sub-heading {
   font-family: 'Heebo', sans-serif;
@@ -36,11 +36,10 @@ export default {
 @media screen and (max-width: 1200px) {
   .main-heading {
     font-size: 400%;
-    margin-top: -200px;
   }
   .sub-heading {
-    font-size: 200%;
-    margin-top: -130px;
+    font-size: 180%;
+    margin-top: 0;
   }
 }
 
