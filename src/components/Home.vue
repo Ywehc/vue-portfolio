@@ -19,8 +19,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+html, body {
+  height: 100%;
+  background-color: $dark;
+}
 .global {
   background-color: $dark;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
 }
 .router-view {
   height: 410px;

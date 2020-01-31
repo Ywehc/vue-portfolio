@@ -25,7 +25,6 @@
   color: $main-text-color;
   text-align: center;
   font-weight: bold;
-  min-height: 760px;
 }
 li:hover {
   color: $darker;
