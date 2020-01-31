@@ -23,44 +23,44 @@
 }
 .mobile-panel {
     width: 24px;
-    background-size: 900%;
     border-radius: 5px;
+    background-size: cover;
 }
 .yellow{
-  background-image: url("/../img/forest-yellow.jpg");
+  background-image: url("/../img/mobile/yellow-mobile.jpg");
   margin: 4px;
   height: 165px;
 }
 .green {
-  background-image: url("/../img/forest.jpg");
+  background-image: url("/../img/mobile/green-mobile.jpg");
   background-position: top;
   margin: 4px;
   height: 170px;
 }
 .blue {
-  background-image: url("/../img/blue-forest.jpg");
+  background-image: url("/../img/mobile/blue-mobile.jpg");
   margin: 4px;
   height: 190px;
 }
 .indigo{
-  background-image: url("/../img/indigo-forest.jpg");
+  background-image: url("/../img/mobile/indigo-mobile.jpg");
   background-position: bottom;
   margin: 4px;
   height: 230px;
 }
 .violet {
-  background-image: url("/../img/violet-forest.jpg");
+  background-image: url("/../img/mobile/violet-mobile.jpg");
   margin: 4px;
   height: 220px;
 }
 .red {
-  background-image: url("/../img/red-forest.jpg");
+  background-image: url("/../img/mobile/red-mobile.jpg");
   background-position: center;
   margin: 4px;
   height: 210px
 }
 .orange {
-  background-image: url("/../img/orange-forest.jpg");
+  background-image: url("/../img/mobile/orange-mobile.jpg");
   background-position: center;
   margin: 4px;
   height: 180px
