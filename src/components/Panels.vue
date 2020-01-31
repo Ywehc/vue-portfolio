@@ -26,48 +26,48 @@ export default {
   display: flex;
 }
 .yellow{
-  background-image: url("/../img/forest-yellow.jpg");
-  background-size: 600%;
+  background-image: url("/../img/desktop/yellow-desktop.jpg");
   margin-top: 60px;
-  height: 350px;
+  height: 270px;
   margin-left: 400px;
+  background-size: contain;
 }
 .green {
-  background-image: url("/../img/forest.jpg");
-  background-size: 600%;
+  background-image: url("/../img/desktop/green-desktop.jpg");
   margin-top: 40px;
-  height: 350px;
+  height: 300px;
+  background-size: cover;
 }
 .blue {
-  background-image: url("/../img/blue-forest.jpg");
-  background-size: 800%;
-  margin-top: 20px;
-  height: 350px;
+  background-image: url("/../img/desktop/blue-desktop.jpg");
+  margin-top: 30px;
+  height: 320px;
+  background-size: contain;
 }
 .indigo{
-  background-image: url("/../img/indigo-forest.jpg");
-  background-size: 300%;
+  background-image: url("/../img/desktop/indigo-desktop.jpg");
+  background-size: cover;
   margin-top: 10px;
   height: 350px;
 }
 .violet {
-  background-image: url("/../img/violet-forest.jpg");
-  background-size: 1000%;
+  background-image: url("/../img/desktop/violet-desktop.jpg");
+  background-size: cover;
   margin-top: 10px;
   height: 350px;
 }
 .red {
-  background-image: url("/../img/red-forest.jpg");
-  background-size: 800%;
+  background-image: url("/../img/desktop/red-desktop.jpg");
+  background-size: cover;
   background-position-x: 50%;
-  height: 350px;
-  margin-top: 20px;
+  height: 310px;
+  margin-top: 40px;
 }
 .orange {
-  background-image: url("/../img/orange-forest.jpg");
-  background-position: bottom center;
-  background-size: 600%;
-  height: 300px;
+  background-image: url("/../img/desktop/orange-desktop.jpg");
+  background-size: cover;
+  margin-top: 50px;
+  height: 280px;
 }
 
 .fade-in-yellow {
