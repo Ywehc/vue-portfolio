@@ -29,7 +29,7 @@ export default {
   background-image: url("/../img/desktop/yellow-desktop.jpg");
   margin-top: 60px;
   height: 270px;
-  margin-left: 400px;
+  margin-left: 280px;
   background-size: contain;
 }
 .green {
@@ -437,27 +437,10 @@ export default {
 @media screen and (max-width: 1200px) {
   .yellow {
     margin-left: 250px;
-    margin-top: 140px;
-  }
-  .green {
-    margin-top: 120px;
+    background-size: cover;
   }
   .blue {
-    margin-top: 100px;
-  }
-  .indigo {
-    margin-top: 90px;
-  }
-  .violet {
-    margin-top: 90px;
-  }
-  .red {
-    margin-top: 100px;
-  }
-  .orange {
-    height: 220px;
-    background-size: 400px;
-    margin-top: 120px;
+    background-size: cover;
   }
 }
 @media screen and (max-width: 998px) {
