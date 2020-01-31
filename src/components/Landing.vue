@@ -22,7 +22,7 @@
     font-size: 44px;
     font-weight: lighter;
     color: $lighter;
-    padding-top: 30px;
+    padding-top: 34px;
   }
   h1:hover{
       color: $light;
