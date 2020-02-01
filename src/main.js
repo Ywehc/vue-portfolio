@@ -22,31 +22,35 @@ let contact = require('./views/Contact.vue').default;
 const routes = [{
   path: '/',
   component: main
-},
-{
-  path: '/home',
-  component: main
-},
-{
-  path: '/about',
-  component: about
-},
-{
-  path: '/skills',
-  component: skills
-},
-{
-  path: '/portfolio',
-  component: portfolio
-},
-{
-  path: '/contact',
-  component: contact
-},
-{
-  path: '/landing',
-  component: landing
-}
+  },
+  {
+    path: '/home',
+    component: main
+  },
+  {
+    path: '/about',
+    component: about
+  },
+  {
+    path: '/skills',
+    component: skills
+  },
+  {
+    path: '/portfolio',
+    component: portfolio
+  },
+  {
+    path: '/contact',
+    component: contact
+  },
+  {
+    path: '/landing',
+    component: landing
+  },
+  {
+    // will match everything
+    path: '*'
+  }
 ];
 
 const router = new Router
