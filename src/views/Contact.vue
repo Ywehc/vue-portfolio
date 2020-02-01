@@ -97,7 +97,7 @@
     font-size: 16px;
 }
 .button-submit {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 15px;
 }
 .linkedin-container {
